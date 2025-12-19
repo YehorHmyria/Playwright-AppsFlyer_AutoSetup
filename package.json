@@ -1,0 +1,27 @@
+{
+  "name": "af_auto_setup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "report": "npx playwright show-report",
+    "install:browsers": "npx playwright install chromium"
+  },
+  "dependencies": {
+    "express": "^4.19.0",
+    "dotenv": "^16.6.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^24.7.0"
+  },
+  "engines": {
+    "node": ">=20 <21"
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC"
+}

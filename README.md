@@ -1,1 +1,1 @@
-# Playwright-AppsFlyer_AutoSetup
+# AF_Auto_Setup
